@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cookie_Based_Authentication.props" />
+</Project>
