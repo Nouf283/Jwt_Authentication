@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cookie_Based_Authentication", "Cookie_Based_Authentication\Cookie_Based_Authentication.csproj", "{37154F0C-786D-4065-A962-B090D6F81F78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jwt_api", "Jwt_api\Jwt_api.csproj", "{6D7F80EB-F191-4652-A082-C500F9546335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{37154F0C-786D-4065-A962-B090D6F81F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37154F0C-786D-4065-A962-B090D6F81F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37154F0C-786D-4065-A962-B090D6F81F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7F80EB-F191-4652-A082-C500F9546335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7F80EB-F191-4652-A082-C500F9546335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7F80EB-F191-4652-A082-C500F9546335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7F80EB-F191-4652-A082-C500F9546335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
