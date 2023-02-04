@@ -60,3 +60,5 @@ C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\obj\Debug\net6.
 C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\obj\Debug\net6.0\Cookie_Based_Authentication.pdb
 C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\obj\Debug\net6.0\Cookie_Based_Authentication.genruntimeconfig.cache
 C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\obj\Debug\net6.0\ref\Cookie_Based_Authentication.dll
+C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projects\Jwt_based_Authentication\Cookie_Based_Authentication\obj\Debug\net6.0\Cookie_Based_Authentication.csproj.CopyComplete
