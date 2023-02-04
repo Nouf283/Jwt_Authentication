@@ -36,3 +36,6 @@ C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.Identity
 C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
