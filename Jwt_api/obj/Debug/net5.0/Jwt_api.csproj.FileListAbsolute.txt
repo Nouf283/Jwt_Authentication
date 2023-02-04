@@ -31,3 +31,8 @@ C:\Projects\Jwt_based_Authentication\Jwt_api\obj\Debug\net5.0\refint\Jwt_api.dll
 C:\Projects\Jwt_based_Authentication\Jwt_api\obj\Debug\net5.0\Jwt_api.pdb
 C:\Projects\Jwt_based_Authentication\Jwt_api\obj\Debug\net5.0\Jwt_api.genruntimeconfig.cache
 C:\Projects\Jwt_based_Authentication\Jwt_api\obj\Debug\net5.0\ref\Jwt_api.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\Jwt_based_Authentication\Jwt_api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
