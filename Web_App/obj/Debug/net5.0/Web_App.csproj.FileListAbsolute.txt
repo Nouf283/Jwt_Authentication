@@ -79,3 +79,4 @@ C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\refint\Web_App.dll
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Web_App.pdb
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Web_App.genruntimeconfig.cache
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\ref\Web_App.dll
+C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\Register.cshtml.g.cs
