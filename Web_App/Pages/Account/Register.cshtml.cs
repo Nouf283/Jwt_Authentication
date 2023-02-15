@@ -6,6 +6,8 @@ namespace Web_App.Pages.Account
 {
     public class RegisterModel : PageModel
     {
+        [BindProperty]
+        public RegisterViewModel RegisterViewModel { get; set; }
         public void OnGet()
         {
         }
