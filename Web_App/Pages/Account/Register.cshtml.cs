@@ -36,7 +36,7 @@ namespace Web_App.Pages.Account
             
             if (result.Succeeded)
             {
-                return RedirectToPage("/Account/Login");
+                return RedirectToPage("/Account/_Login");
             }
             else
             {
