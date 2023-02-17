@@ -81,3 +81,4 @@ C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Web_App.genruntime
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\ref\Web_App.dll
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\Register.cshtml.g.cs
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\_Login.cshtml.g.cs
+C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\ConfirmEmail.cshtml.g.cs
