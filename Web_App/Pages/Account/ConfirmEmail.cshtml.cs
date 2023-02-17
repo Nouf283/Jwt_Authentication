@@ -26,7 +26,7 @@ namespace Web_App.Pages.Account
                     return Page();
                 }
             }
-            this.message = "Failed to confirm email address.";
+            this.message = "Failed to confirm email address";
             return Page();
         }
     }

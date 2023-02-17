@@ -5,16 +5,20 @@ using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
+using Web_App.Services;
 
 namespace Web_App.Pages.Account
 {
     public class RegisterModel : PageModel
     {
         private readonly UserManager<IdentityUser> userManager;
+        private readonly IEmailService emailService;
 
-        public RegisterModel(UserManager<IdentityUser> userManager)
+        public RegisterModel(UserManager<IdentityUser> userManager,
+            IEmailService emailService)
         {
             this.userManager = userManager;
+            this.emailService = emailService;
         }
         [BindProperty]
         public RegisterViewModel RegisterViewModel { get; set; }
@@ -41,19 +45,9 @@ namespace Web_App.Pages.Account
                 var confirmationToken = await this.userManager.GenerateEmailConfirmationTokenAsync(user);
                 var confirmationLink = Url.PageLink(pageName: "/Account/ConfirmEmail",
                      values: new { userId = user.Id, token = confirmationToken });
-                var message = new MailMessage("noufawal0311@gmail.com", user.Email,
+                await this.emailService.Send("noufawal0311@gmail.com", user.Email,
                     "Please Confirm Your Email",
                     $"Please click on this link to confirm this Email Addess : {confirmationLink}");
-
-                using (var emailClient = new SmtpClient("smtp-relay.sendinblue.com", 587))
-                {
-                    emailClient.Credentials = new NetworkCredential(
-                    "noufawal0311@gmail.com",
-                     "TPgLFdBh8DJ7a3O0"
-                     );
-
-                    await emailClient.SendMailAsync(message);
-                }
 
                 return RedirectToPage("/Account/_Login");
             }
