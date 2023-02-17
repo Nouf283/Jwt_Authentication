@@ -22,11 +22,11 @@ namespace Web_App.Pages.Account
                 var result = await this.userManager.ConfirmEmailAsync(user, token);
                 if (result.Succeeded)
                 {
-                    this.message = " Email address is successfully confired. now you can try to login.";
+                    this.message = " Email address is successfully confirmed. now you can try to login.";
                     return Page();
                 }
             }
-            this.message = "Failed to cinfirm email address;";
+            this.message = "Failed to confirm email address.";
             return Page();
         }
     }
