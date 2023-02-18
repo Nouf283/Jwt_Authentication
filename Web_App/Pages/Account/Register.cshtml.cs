@@ -45,7 +45,7 @@ namespace Web_App.Pages.Account
                 var confirmationToken = await this.userManager.GenerateEmailConfirmationTokenAsync(user);
                 var confirmationLink = Url.PageLink(pageName: "/Account/ConfirmEmail",
                      values: new { userId = user.Id, token = confirmationToken });
-                await this.emailService.Send("noufawal0311@gmail.com", user.Email,
+                await this.emailService.Send("iadiba706@gmail.com", user.Email,
                     "Please Confirm Your Email",
                     $"Please click on this link to confirm this Email Addess : {confirmationLink}");
 
