@@ -33,7 +33,7 @@ namespace Web_App
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
 
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<User, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
                 options.Password.RequireLowercase = true;

@@ -7,15 +7,16 @@ using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Web_App.Data;
 
 namespace Web_App.Pages.Account
 {
     
     public class _LoginModel : PageModel
     {
-        private readonly SignInManager<IdentityUser> signInManager;
+        private readonly SignInManager<User> signInManager;
 
-        public _LoginModel(SignInManager<IdentityUser> signInManager)
+        public _LoginModel(SignInManager<User> signInManager)
         {
             this.signInManager = signInManager;
         }
