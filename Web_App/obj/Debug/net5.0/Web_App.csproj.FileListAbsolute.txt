@@ -84,3 +84,4 @@ C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Accoun
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\ConfirmEmail.cshtml.g.cs
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\Logout.cshtml.g.cs
 C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Shared\_LoginStatusPartial.cshtml.g.cs
+C:\Projects\Jwt_based_Authentication\Web_App\obj\Debug\net5.0\Razor\Pages\Account\UserProfile.cshtml.g.cs
